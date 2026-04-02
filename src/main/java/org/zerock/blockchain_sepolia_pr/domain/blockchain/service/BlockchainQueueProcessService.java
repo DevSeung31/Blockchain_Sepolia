@@ -1,5 +1,6 @@
 package org.zerock.blockchain_sepolia_pr.domain.blockchain.service;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.transaction.Transactional;
 import org.springframework.stereotype.Service;
 
@@ -12,7 +13,7 @@ import org.zerock.blockchain_sepolia_pr.domain.common.config.BlockchainPropertie
 import org.zerock.blockchain_sepolia_pr.domain.trade.dto.TradeQueuePayload;
 import org.zerock.blockchain_sepolia_pr.domain.trade.entity.Trade;
 import org.zerock.blockchain_sepolia_pr.domain.trade.repository.TradeRepository;
-import tools.jackson.databind.ObjectMapper;
+
 
 @Service
 public class BlockchainQueueProcessService {

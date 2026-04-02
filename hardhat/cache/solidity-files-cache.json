@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\BlockChain\\BlockChain_Sepolia_pr\\hardhat\\contracts\\TradeRecorder.sol": {
+      "lastModificationDate": 1775092390270,
+      "contentHash": "9ea7b9b38fcc567b2a5611f0a342715f",
+      "sourceName": "contracts/TradeRecorder.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.28"
+      ],
+      "artifacts": [
+        "TradeRecorder"
+      ]
+    }
+  }
+}
